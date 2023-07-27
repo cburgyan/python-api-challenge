@@ -34,4 +34,13 @@ Using Scipy.stats a Pearson's R coefficient and a linear regression were include
 The general conclusion was that maximum temperature was only metric that showed a strong R coeficient of .6 or higher and it showed that our general intuitions are true: the smaller the magnitude of the latitude, the warmer the temperatures*
 
 
-*<font=6>More specifically the closer one gets to the latitude that is closest to the sun (which for this time of year is about 22&#176;N latitude), the warmer the temperature which varies between 23.5&#176;N and 23.5&#176;S latitude due to the 23.5&#176; tilt of the earth's axis.</font>
+* ###### More specifically the closer one gets to the latitude that is closest to the sun (which for this time of year is about 22&#176;N latitude), the warmer the temperature which varies between 23.5&#176;N and 23.5&#176;S latitude due to the 23.5&#176; tilt of the earth's axis.
+
+### Part 2
+In part 2, the 500+ cities were mapped using hvplots.points onto a global map. Then the list of cities were narrowed down to three criteria:
+
+1. Maximum temperature is between 20&#176;C and 27&#176;C
+2. wind speed is less than 4.5 m/s
+3. percent cloudiness is zero
+
+This resulted in 9 cities. Then geoapify was used to find a hotel in each city. And, finally, the 9 cities were mapped using hvplots.points.
